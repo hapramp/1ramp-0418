@@ -1,5 +1,13 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #F8FAFF;
+}
+
+.title-text {
+    font-family: 'Saira Semi Condensed', sans-serif !important;
+}
+
+.text-primary {
+  color: #3F72AF !important
 }

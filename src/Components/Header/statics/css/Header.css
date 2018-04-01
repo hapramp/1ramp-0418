@@ -1,0 +1,9 @@
+.hr-header .logo-icon {
+    width: auto;
+    height: 24px;
+    margin-right: 8px;    
+}
+
+.hr-header .uk-navbar-nav>li>a.active {
+    color: #D81B60;
+}
