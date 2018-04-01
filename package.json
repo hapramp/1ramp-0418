@@ -1,0 +1,20 @@
+{
+  "name": "hapramp_landing_v2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-router-dom": "^4.2.2",
+    "uikit": "^3.0.0-beta.40"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
