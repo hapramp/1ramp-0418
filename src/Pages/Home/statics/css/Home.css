@@ -1,0 +1,42 @@
+.hero-wrapper {
+    background-image: url('../img/hero_bg.png');
+    background-size: cover;
+}
+
+.hero {
+    height: calc(100vh - 80px);
+    align-items: center;
+}
+
+.grand-title {
+    font-size: 64px;
+    line-height: 84px;
+    color: #112D4E
+}
+
+.cta input {
+    height: 63px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border: white
+}
+
+.cta button.submit, .cta input.submit {
+    background-color: #D81B60;
+    color: #fff;
+    border-radius: 40px;
+    padding: 0 40px;
+    height: 64px;
+    position: relative;
+    left: -35px;
+    border-color: transparent;
+    transition: all 0.3s;
+}
+
+.cta button.submit:hover, .cta input.submit:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+.cta .uk-input:focus {
+    border-color:white;
+}

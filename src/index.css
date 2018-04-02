@@ -11,3 +11,11 @@ body {
 .text-primary {
   color: #3F72AF !important
 }
+
+.text-accent {
+  color: #D81B60 !important
+}
+
+.text-dark-blue {
+  color: #112D4E !important
+}
