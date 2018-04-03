@@ -70,7 +70,19 @@
     /*transition: all 0.3s;*/
 }
 
+.char-large-container {
+    position: relative;
+}
+
 .char-large-container img.char-large{
     width: 420px;
     height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.char-large-container img.char-large-bg{
+    position: absolute;
+    left: 0;
+    z-index: 1;
 }

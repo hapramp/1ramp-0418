@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import charArtLarge from '../statics/img/chars/zulu_char_art_large.png'
+import charLargeBg from '../statics/img/char_bg_deco.png'
 
 
 import community from './CommunityData'
@@ -45,6 +45,7 @@ class Community extends Component {
           </div>
           <div className="uk-width-1-3@l char-large-container">
             <img className={'char-large'} src={community[this.state.activeChar].imgLargeSrc} alt=""/>
+            <img src={charLargeBg} alt="" className="char-large-bg"/>
           </div>
         </div>
       </section>
