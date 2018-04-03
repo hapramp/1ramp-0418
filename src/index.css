@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: #F8FAFF;
+    color: rgba(0,0,0,0.55);
 }
 
 .title-text {
