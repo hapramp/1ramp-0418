@@ -40,3 +40,37 @@
 .cta .uk-input:focus {
     border-color:white;
 }
+
+.char-bg-plus-char {
+    position: relative;
+}
+
+.char-container {
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.char-bg-plus-char > img{
+    right: 20%;
+    top: -30px;
+    position: absolute;
+}
+
+.char-wrapper {
+    align-items: flex-end;
+}
+
+.char-container .char-bg{
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.char-container:hover .char-bg {
+    transform: translateY(-8px);
+    /*transition: all 0.3s;*/
+}
+
+.char-large-container img.char-large{
+    width: 420px;
+    height: auto;
+}

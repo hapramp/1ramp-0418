@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  background-color: #F8FAFF;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F8FAFF;
 }
 
 .title-text {
@@ -9,13 +9,33 @@ body {
 }
 
 .text-primary {
-  color: #3F72AF !important
+    color: #3F72AF !important
 }
 
 .text-accent {
-  color: #D81B60 !important
+    color: #D81B60 !important
 }
 
 .text-dark-blue {
-  color: #112D4E !important
+    color: #112D4E !important
+}
+
+.section-title {
+    font-family: 'Saira Semi Condensed', sans-serif !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    content: '/ ';
+    color: #D81B60;
+}
+
+.section-title::after {
+    content: ' /';
+    color: #D81B60;
+}
+
+.width-100 {
+    width: 100% !important;
 }
