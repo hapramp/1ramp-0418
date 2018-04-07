@@ -58,7 +58,6 @@ const Footer = () => (
             </div>
           </div>
         </div>
-
         <div className="uk-width-1-6@l">
           <h4 className="section-title">Powered by</h4>
           <div className="uk-padding-small width-100"></div>

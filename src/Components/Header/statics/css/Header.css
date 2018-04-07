@@ -7,3 +7,7 @@
 .hr-header .uk-navbar-nav>li>a.active {
     color: #D81B60;
 }
+
+Header.uk-active {
+    background-color: white;
+}
