@@ -104,8 +104,12 @@
     width: 30%;
 }
 
-/*.reward .feat-title {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    color: #D81B60;
-    text-transform: uppercase;
-}*/
+.large-CTA {
+    background: url("../../statics/img/bg_cta.png");
+}
+
+
+.large-cta-icons-container .large-cta-icon {
+    flex-direction: column;
+    align-items: center;
+}
