@@ -28,8 +28,8 @@ const Header = () => (
 
         <div className="uk-navbar-right uk-nav-center-sm">
           <span className="uk-text-uppercase uk-margin-small-right">Launching Soon On</span>
-          <a href="" className="uk-margin-small-right uk-text-large" target="_blank"><FontAwesomeIcon icon={faGooglePlay}/></a>
-          <a href="" className="uk-text-large" target="_blank"><FontAwesomeIcon icon={faChrome}/></a>
+          <a href="" className="uk-margin-small-right uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faGooglePlay}/></a>
+          <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faChrome}/></a>
           
 
         </div>

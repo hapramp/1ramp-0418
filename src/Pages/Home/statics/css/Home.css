@@ -130,8 +130,7 @@
     height: 80%;
     top: 20%;
     color: #f00;
-    border-left: 1px dashed rgba(0, 0, 0, 0.54);
+    border-left: 1px dashed rgba(0, 0, 0, 0.38);
     padding: 0 !important;
     left: calc(50% + 60px);
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.38) 0%, #fff0 0%);*/
 }

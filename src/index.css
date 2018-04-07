@@ -29,6 +29,12 @@ body {
     color: #112D4E !important
 }
 
+
+.text-grey-54 {
+    color: rgba(0, 0, 0, 0.54) !important
+}
+
+
 .text-grey-87 {
     color: rgba(0, 0, 0, 0.87) !important
 }

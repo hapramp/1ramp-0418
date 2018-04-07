@@ -3,6 +3,7 @@ import './App.css';
 
 import {Switch, Route} from 'react-router-dom'
 import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Faqs from './Pages/FAQs/FAQs'
@@ -16,6 +17,7 @@ const App = () => (
       <Route path='/about' component={About}/>
       <Route path='/faqs' component={Faqs}/>
     </Switch>
+    <Footer/>
   </main>
 );
 

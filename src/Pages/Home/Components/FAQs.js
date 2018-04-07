@@ -79,6 +79,7 @@ const FAQs = () => (
           </div>
         </div>
       </div>
+      <div className="uk-padding width-100"></div>
     </div>
   </section>
 );
