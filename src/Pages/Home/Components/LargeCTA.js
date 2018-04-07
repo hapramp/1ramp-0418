@@ -6,7 +6,7 @@ import faChrome from '@fortawesome/fontawesome-free-brands/faChrome'
 
 const LargeCTA = () => (
   // <!--Reward Starts-->
-  <section className="large-CTA">
+  <section className="large-CTA uk-background-cover">
     <div className="uk-container">
       <div className="uk-padding width-100"></div>
       <h3 className='section-title section-title-inverted uk-text-center'>Launching soon on</h3>
