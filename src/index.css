@@ -60,5 +60,5 @@ body {
 }
 
 .width-100 {
-    width: 100% !important;
+    width: calc(100% - 80px) !important;
 }

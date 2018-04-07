@@ -4,7 +4,7 @@ import videoillustration from '../statics/img/flat_tv.png'
 
 const VideoSection = () => (
   // <!--Reward Starts-->
-  <section className="reward uk-container">
+  <section className="video-section uk-container">
     <div className="uk-padding width-100"></div>
     <div className="uk-padding-small width-100"></div>
     <h3 className='section-title uk-text-center'>Still have confusion? Watch the video</h3>

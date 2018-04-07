@@ -15,8 +15,8 @@ import './statics/css/Footer.css'
 
 const Footer = () => (
   <footer className="footer uk-overflow-hidden">
-    <div className="uk-padding width-100"></div>
     <div className="uk-container">
+      <div className="uk-padding width-100"></div>
       <div className="uk-grid">
         <div className="uk-width-1-6@l"></div>
 
@@ -38,20 +38,30 @@ const Footer = () => (
           <div className="uk-padding-small width-100"></div>
           <div className="socials-links-container">
             <ul className="uk-list uk-text-uppercase social-link-list">
-              <li className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
-                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faFb}/></a></li>
-              <li className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
-                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faTw}/></a></li>
-              <li className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
-                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faIns}/></a></li>
-              <li className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
-                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faMedium}/></a></li>
+              <li
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faFb}/></a>
+              </li>
+              <li
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faTw}/></a>
+              </li>
+              <li
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faIns}/></a>
+              </li>
+              <li
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faMedium}/></a>
+              </li>
 
-              <li className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
-                <a href="" className="uk-text-large text-primary uk-flex" target="_blank"><img src={steemIcon} alt=""/></a></li>
+              <li
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                <a href="" className="uk-text-large text-primary uk-flex" target="_blank"><img src={steemIcon} alt=""/></a>
+              </li>
 
             </ul>
-            
+
             <div className="email">
               <div className="text-primary uk-text-uppercase">Email</div>
               <a className="text-grey-54" href="mailto:hi@hapramp.com">hi@hapramp.com</a>
@@ -63,18 +73,22 @@ const Footer = () => (
           <div className="uk-padding-small width-100"></div>
           <div className="socials-links-container">
             <ul className="uk-list uk-text-uppercase social-link-list uk-text-center">
-              <li className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
-                <a href="" className="uk-text-large text-primary uk-flex uk-margin-small-bottom" target="_blank"><img src={hasuraLogo} alt=""/></a></li>
+              <li
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                <a href="" className="uk-text-large text-primary uk-flex uk-margin-small-bottom" target="_blank"><img
+                  src={hasuraLogo} alt=""/></a></li>
 
-              <li className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
-                <a href="" className="uk-text-large text-primary uk-flex amazon-logo" target="_blank"><img src={amazonLogo} alt=""/></a></li>
+              <li
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                <a href="" className="uk-text-large text-primary uk-flex amazon-logo" target="_blank"><img
+                  src={amazonLogo} alt=""/></a></li>
 
             </ul>
           </div>
         </div>
       </div>
+      <div className="uk-padding-small width-100"></div>
     </div>
-    <div className="uk-padding-small width-100"></div>
   </footer>
 );
 

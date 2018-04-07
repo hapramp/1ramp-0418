@@ -7,7 +7,7 @@ import faSlack from "@fortawesome/fontawesome-free-brands/faSlackHash";
 
 const FAQs = () => (
   // <!--Reward Starts-->
-  <section className="rewards uk-flex uk-container">
+  <section className="faqs uk-flex uk-container">
     <div className="uk-grid uk-margin-large-bottom uk-position-relative">
       <div className="uk-padding width-100"></div>
       <div className="uk-padding-small width-100"></div>
