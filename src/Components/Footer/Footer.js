@@ -14,7 +14,7 @@ import amazonLogo from './statics/img/amazon.png'
 import './statics/css/Footer.css'
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className="footer uk-overflow-hidden">
     <div className="uk-padding width-100"></div>
     <div className="uk-container">
       <div className="uk-grid">
