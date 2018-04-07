@@ -4,6 +4,7 @@ import Community from './Components/Community'
 import Earn from './Components/Earn'
 import Contest from './Components/Contest'
 import Reward from './Components/Reward'
+import VideoSection from './Components/VideoSection'
 
 import './statics/css/Home.css'
 
@@ -15,6 +16,7 @@ const Home = () => (
     <Earn/>
     <Contest/>
     <Reward/>
+    <VideoSection/>
   </div>
 );
 

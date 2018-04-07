@@ -31,6 +31,10 @@ body {
     text-transform: uppercase;
 }
 
+.section-title.section-title-inverted  {
+    color: white;
+}
+
 .section-title::before {
     content: '/ ';
     color: #D81B60;

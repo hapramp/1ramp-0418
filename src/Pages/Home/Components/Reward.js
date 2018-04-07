@@ -9,11 +9,6 @@ const Reward = () => (
       <div className="uk-padding width-100"></div>
       <div className="uk-padding-small width-100"></div>
 
-      {/*<div className="coin-img uk-visible@l">
-        <div className="circle-coin"></div>
-
-      </div>*/}
-
       <div className="uk-grid">
         <div className="uk-width-1-3 uk-visible@l">
           <img src={rewardImg} alt=""/>
