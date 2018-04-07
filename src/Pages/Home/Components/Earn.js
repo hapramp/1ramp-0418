@@ -1,10 +1,10 @@
 import React from 'react'
 
-import rewardImg from '../statics/img/rewards.png'
+import rewardImg from '../statics/img/earn_illustration.png'
 
-const Rewards = () => (
+const Earn = () => (
   // <!--Reward Starts-->
-  <section className="rewards uk-flex uk-container">
+  <section className="earn uk-flex uk-container">
     <div className="uk-grid uk-margin-large-bottom">
       <div className="uk-padding width-100"></div>
       <div className="uk-padding-small width-100"></div>
@@ -33,4 +33,4 @@ const Rewards = () => (
   </section>
 );
 
-export default Rewards
+export default Earn

@@ -17,6 +17,10 @@ body {
     color: #D81B60 !important
 }
 
+.title-text {
+    font-family: 'Saira Semi Condensed', sans-serif !important;;
+}
+
 .text-dark-blue {
     color: #112D4E !important
 }

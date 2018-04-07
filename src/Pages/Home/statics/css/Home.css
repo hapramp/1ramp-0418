@@ -103,3 +103,9 @@
 .cta-split-screen:hover::after {
     width: 30%;
 }
+
+/*.reward .feat-title {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #D81B60;
+    text-transform: uppercase;
+}*/

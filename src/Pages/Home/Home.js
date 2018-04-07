@@ -1,8 +1,9 @@
 import React from 'react'
 import Hero from './Components/Hero'
 import Community from './Components/Community'
-import Rewards from './Components/Rewards'
+import Earn from './Components/Earn'
 import Contest from './Components/Contest'
+import Reward from './Components/Reward'
 
 import './statics/css/Home.css'
 
@@ -11,8 +12,9 @@ const Home = () => (
   <div className="home">
     <Hero/>
     <Community/>
-    <Rewards/>
+    <Earn/>
     <Contest/>
+    <Reward/>
   </div>
 );
 
