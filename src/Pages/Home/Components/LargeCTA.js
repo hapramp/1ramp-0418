@@ -13,12 +13,12 @@ const LargeCTA = () => (
       <div className="uk-padding-small width-100"></div>
 
       <div className="large-cta-icons-container uk-text-center">
-        <a href="" className="large-cta-icon uk-margin-right uk-text-large text-white uk-flex-inline" target="_blank"><FontAwesomeIcon
-          icon={faGooglePlay} size={`2x`}/>
-          <div>PlayStore</div>
+        <a href="" className="large-cta-icon uk-margin-right text-white uk-flex-inline" target="_blank"><FontAwesomeIcon
+          icon={faGooglePlay} size={`4x`}/>
+          <div className="uk-text-small uk-text-bold uk-margin-small-top">PlayStore</div>
         </a>
-        <a href="" className="large-cta-icon uk-text-large text-white uk-flex-inline" target="_blank"><FontAwesomeIcon icon={faChrome} size={`2x`}/>
-          <div>PlayStore</div>
+        <a href="" className="large-cta-icon text-white uk-flex-inline" target="_blank"><FontAwesomeIcon icon={faChrome} size={`4x`}/>
+          <div className="uk-text-small uk-text-bold uk-margin-small-top">Chrome</div>
         </a>
       </div>
 

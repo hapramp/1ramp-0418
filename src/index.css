@@ -29,6 +29,10 @@ body {
     color: #112D4E !important
 }
 
+.text-grey-87 {
+    color: rgba(0, 0, 0, 0.87) !important
+}
+
 .section-title {
     font-family: 'Saira Semi Condensed', sans-serif !important;
     font-weight: bold;

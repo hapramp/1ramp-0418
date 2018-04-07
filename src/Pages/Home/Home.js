@@ -6,6 +6,7 @@ import Contest from './Components/Contest'
 import Reward from './Components/Reward'
 import VideoSection from './Components/VideoSection'
 import LargeCTA from './Components/LargeCTA'
+import FAQs from './Components/FAQs'
 
 import './statics/css/Home.css'
 
@@ -19,6 +20,7 @@ const Home = () => (
     <Reward/>
     <VideoSection/>
     <LargeCTA/>
+    <FAQs/>
   </div>
 );
 

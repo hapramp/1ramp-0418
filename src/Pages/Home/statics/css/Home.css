@@ -112,4 +112,26 @@
 .large-cta-icons-container .large-cta-icon {
     flex-direction: column;
     align-items: center;
+
+}
+
+.large-cta-icons-container .large-cta-icon .circle-bg {
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+
+.large-cta-icons-container .large-cta-icon:hover {
+    color: white;
+}
+
+.faq-seperator {
+    height: 80%;
+    top: 20%;
+    color: #f00;
+    border-left: 1px dashed rgba(0, 0, 0, 0.54);
+    padding: 0 !important;
+    left: calc(50% + 60px);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.38) 0%, #fff0 0%);*/
 }
