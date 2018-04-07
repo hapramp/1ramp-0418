@@ -74,6 +74,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    <div className="uk-padding-small width-100"></div>
   </footer>
 );
 
