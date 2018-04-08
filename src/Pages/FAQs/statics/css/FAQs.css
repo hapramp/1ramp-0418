@@ -2,3 +2,8 @@
     background-image: url('../img/faq_bg.png');
     background-size: cover;
 }
+
+.qa-view .uk-accordion-content{
+    padding-left: 24px;
+    border-left: 1px dashed rgba(0, 0, 0, 0.38);
+}
