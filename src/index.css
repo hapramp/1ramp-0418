@@ -5,6 +5,11 @@ body {
     color: rgba(0,0,0,0.55);
 }
 
+
+.bg-white {
+    background-color: white;
+}
+
 .title-text {
     font-family: 'Saira Semi Condensed', sans-serif !important;
 }
@@ -37,6 +42,14 @@ body {
 
 .text-grey-87 {
     color: rgba(0, 0, 0, 0.87) !important
+}
+
+.padding-24px {
+    padding: 24px !important;
+}
+
+.text-line-height-1 {
+    line-height: 1 !important;
 }
 
 .section-title {

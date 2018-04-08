@@ -1,0 +1,35 @@
+import React from 'react'
+
+import QAData from '../Data/FaqData'
+
+const QAView = () => (
+  // <!--Hero Starts-->
+  <section className="uk-container">
+    <div className="uk-padding width-100"></div>
+    <div className="uk-grid">
+      <div className="uk-width-1-6@l"></div>
+      <div className="uk-width-2-3@l">
+        <div className="qa-wrapper">
+          {
+            QAData.map((data)=> (
+              <ul is uk-accordion="multiple: true" className="bg-white padding-24px">
+                <li>
+                  <a className="uk-accordion-title text-grey-87 title-text uk-text-bold" href="#">{data.q}</a>
+                  <div className="uk-accordion-content">
+                    <p>{data.a}</p>
+                  </div>
+                </li>
+              </ul>
+            ))
+          }
+
+        </div>
+      </div>
+    </div>
+    <div className="uk-padding width-100"></div>
+    <div className="uk-padding-small width-100"></div>
+    <div className="uk-padding-small width-100"></div>
+  </section>
+);
+
+export default QAView

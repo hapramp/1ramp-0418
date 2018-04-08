@@ -62,7 +62,7 @@ const FAQs = () => (
           <div className="large-cta-icons-container uk-text-center">
             <a href="" className="large-cta-icon uk-margin-medium-right text-primary uk-flex-inline"
                target="_blank">
-              <span className="circle-bg uk-margin-small-bottom">
+              <span className="circle-bg uk-margin-small-bottom text-line-height-1">
                 <FontAwesomeIcon
                                  icon={faTelegram} size={`3x`}/>
               </span>
@@ -70,7 +70,7 @@ const FAQs = () => (
             </a>
 
             <a href="" className="large-cta-icon text-primary uk-flex-inline" target="_blank">
-              <span className="circle-bg uk-margin-small-bottom">
+              <span className="circle-bg uk-margin-small-bottom text-line-height-1">
                 <FontAwesomeIcon
                   icon={faSlack} size={`3x`}/>
               </span>
@@ -80,6 +80,7 @@ const FAQs = () => (
         </div>
       </div>
       <div className="uk-padding width-100"></div>
+      <div className="uk-padding-small width-100"></div>
     </div>
   </section>
 );

@@ -1,9 +1,14 @@
 
 import React from 'react'
+import Hero from './Components/Hero'
+import QAview from './Components/QAView'
+
+import './statics/css/FAQs.css'
 
 const Faqs = () => (
   <div>
-    <h3>I'm From FAQs</h3>
+    <Hero/>
+    <QAview/>
   </div>                    
 );
 
