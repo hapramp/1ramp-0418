@@ -1,10 +1,12 @@
-
 import React from 'react'
+import Hero from './Components/Hero'
+
+import './statics/css/About.css'
 
 const About = () => (
   <div>
-    <h3>I'm From About</h3>
-  </div>                    
+    <Hero/>
+  </div>
 );
 
 export default About
