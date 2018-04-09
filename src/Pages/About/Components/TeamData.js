@@ -32,7 +32,7 @@ const community =
       {icon: faGitHub, link: 'https://github.com/aviaryan'}]
   },{
     name: 'Pratyush Singh', imgSrc: pratyushThumb, designation: "BLOCKCHAIN ENGINEER",
-    socials: [{icon: faLinkedIn, link: 'https://www.linkedin.com/in/singh-pratyush_/'}, {
+    socials: [{icon: faLinkedIn, link: 'https://www.linkedin.com/in/singh-pratyush/'}, {
       icon: faTw, link: 'https://twitter.com/singhpratyush_'
     },
       {icon: faGitHub, link: 'https://github.com/singhpratyush'}]
