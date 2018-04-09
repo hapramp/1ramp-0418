@@ -16,7 +16,7 @@ const Header = () => (
 
         <div className="uk-navbar-left">
           <NavLink className="uk-navbar-item uk-logo title-text uk-text-bold text-primary" exact to='/'>
-            <img className="logo-icon" src={logo} alt="HapRamp Logo"/> HAPRAMP
+            <img className="logo-icon" src={logo} alt="HapRamp Logo"/> <span className=" uk-visible@s">HAPRAMP</span>
           </NavLink>
         </div>
 
@@ -28,8 +28,8 @@ const Header = () => (
           </ul>
         </div>
 
-        <div className="uk-navbar-right uk-nav-center-sm">
-          <span className="uk-text-uppercase uk-margin-small-right">Launching Soon On</span>
+        <div className="uk-navbar-right uk-nav-center-sm uk-visible@s">
+          <span className="uk-text-uppercase uk-margin-small-right uk-visible@m">Launching Soon On</span>
           <a href="" className="uk-margin-small-right uk-text-large text-primary" target="_blank"><FontAwesomeIcon
             icon={faGooglePlay}/></a>
           <a href="" className="uk-text-large text-primary" target="_blank"><FontAwesomeIcon icon={faChrome}/></a>
