@@ -24,8 +24,6 @@ const AboutText = () => (
         <p><strong>Team HapRamp.</strong></p>
       </div>
     </div>
-    <div className="uk-padding width-100"></div>
-    <div className="uk-padding-small width-100"></div>
     <div className="uk-padding-small width-100"></div>
   </section>
 );

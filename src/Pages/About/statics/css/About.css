@@ -2,3 +2,27 @@
     background-image: url('../img/about_bg.png');
     background-size: cover;
 }
+
+.team-container .member-thumb {
+    width: 160px;
+    height: auto;
+}
+
+.team-container .member-designation::before {
+    content: '[ ';
+    color: #D81B60;
+}
+
+.team-container .member-designation::after {
+    content: ' ]';
+    color: #D81B60;
+}
+
+.social-links > a {
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.social-links > a:hover {
+    transform: translateY(-3px);
+}
