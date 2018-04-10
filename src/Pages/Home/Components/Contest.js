@@ -4,12 +4,12 @@ import contestImg from '../statics/img/contest.png'
 
 const Contest = () => (
   // <!--Reward Starts-->
-  <section className="rewards uk-flex uk-container">
+  <section className="contest uk-flex uk-container">
     <div className="uk-grid uk-margin-large-bottom">
       <div className="uk-padding width-100"></div>
       <div className="uk-padding-small width-100"></div>
 
-      <div className="split-content uk-width-1-2@l uk-width-1-1@m">
+      <div className="split-content uk-width-1-2@m uk-flex-last">
         <h3 className={'section-title '}>Participate in Exciting Contests</h3>
         <div className="uk-padding-small width-100"></div>
         <p>
@@ -22,7 +22,7 @@ const Contest = () => (
            target={'_blank'}>SignUp for Early Access</a>
       </div>
 
-      <div className="hero-contents uk-width-1-2@l uk-width-1-1@m">
+      <div className="split-contents uk-width-1-2@m">
         <img src={contestImg} alt="" className="split-large-img"/>
       </div>
     </div>

@@ -9,11 +9,11 @@ const Earn = () => (
       <div className="uk-padding width-100"></div>
       <div className="uk-padding-small width-100"></div>
 
-      <div className="hero-contents uk-width-1-2@l uk-width-1-1@m">
+      <div className="split-contents uk-width-1-2@m">
         <img src={rewardImg} alt="" className="split-large-img"/>
       </div>
 
-      <div className="split-content uk-width-1-2@l uk-width-1-1@m">
+      <div className="split-content uk-width-1-2@m">
         <h3 className={'section-title '}>EARN REWARD BY SHARING YOUR WORK</h3>
         <div className="uk-padding-small width-100"></div>
         <p>
