@@ -26,3 +26,28 @@
 .social-links > a:hover {
     transform: translateY(-3px);
 }
+
+
+.about-text .team {
+    text-align: center;
+}
+
+.hero-about .large-cta-icon > span{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 960px) {
+    .about-text, .team {
+        text-align: center;
+    }
+}
+
+@media (max-width: 444px) {
+    .large-cta-icons-container a:first-child{
+        margin-left: 40px;
+    }
+}

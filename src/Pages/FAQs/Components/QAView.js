@@ -7,8 +7,8 @@ const QAView = () => (
   <section className="uk-container qa-view">
     <div className="uk-padding width-100"></div>
     <div className="uk-grid">
-      <div className="uk-width-1-6@m uk-width-1-4@xl"></div>
-      <div className="uk-width-2-3@m uk-width-1-2@xl">
+      <div className="uk-width-1-6@m"></div>
+      <div className="uk-width-2-3@m">
         <div className="qa-wrapper">
           {
             QAData.map((data)=> (

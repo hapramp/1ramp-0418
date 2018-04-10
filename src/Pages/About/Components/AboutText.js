@@ -3,13 +3,13 @@ import React from 'react'
 
 const AboutText = () => (
   // <!--Hero Starts-->
-  <section className="uk-container qa-view">
+  <section className="uk-container about-text">
     <div className="uk-padding width-100"></div>
     <div className="uk-padding-small width-100"></div>
 
     <div className="uk-grid">
-      <div className="uk-width-1-6@l"></div>
-      <div className="uk-width-2-3@l">
+      <div className="uk-width-1-6@m"></div>
+      <div className="uk-width-2-3@m">
         <h3 className={'section-title '}>Little About Us</h3>
         <div className="uk-padding-small width-100"></div>
         <p>

@@ -11,8 +11,8 @@ const Team = () => (
     <div className="uk-padding-small width-100"></div>
 
     <div className="uk-grid">
-      <div className="uk-width-1-6@l"></div>
-      <div className="uk-width-2-3@l">
+      <div className="uk-width-1-6@m"></div>
+      <div className="uk-width-2-3@m">
         <h3 className={'section-title '}>People who dream Hapramp</h3>
         <div className="uk-padding width-100"></div>
         <div className="team-container uk-grid">
