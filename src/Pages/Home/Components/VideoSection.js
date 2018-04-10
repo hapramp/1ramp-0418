@@ -13,7 +13,7 @@ const VideoSection = () => (
     <div className="uk-grid uk-margin-large-bottom">
       <div className="uk-width-1-4@l"></div>
 
-      <div className="uk-width-1-1@m uk-width-1-2@l">
+      <div className="uk-width-1-1@m uk-width-1-2@l uk-text-center">
         <img src={videoillustration} alt=""/>
       </div>
 

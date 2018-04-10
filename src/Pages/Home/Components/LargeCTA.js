@@ -25,7 +25,7 @@ const LargeCTA = () => (
       <div className="cta uk-margin-medium-top">
         <form id="early-access" action="">
           <div className="uk-margin uk-flex-center uk-flex" uk-margin>
-            <input id="early-access-input" className="email uk-width-1-3@l uk-input" type="email"
+            <input id="early-access-input" className="email uk-width-1-3@m uk-width-1-2@s uk-input" type="email"
                    placeholder="Enter Your Email" name="email"
                    required/>
 
