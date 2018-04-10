@@ -135,6 +135,22 @@
     left: calc(50% + 60px);
 }
 
+.uk-grid>*>.char-container:last-child {
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1200px) {
+    .uk-grid>.char-wrapper {
+        justify-content: center;
+        margin-left: 40px;
+    }
+
+    .community .section-title {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
 
 @media (max-width: 639px) {
     .cta button.submit, .feat.cta input.submit {

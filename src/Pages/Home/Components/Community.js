@@ -30,7 +30,7 @@ class Community extends Component {
           <div className="uk-padding width-100"></div>
           <div className="uk-padding-small width-100"></div>
 
-          <div className="char-wrapper uk-width-2-3@m uk-flex uk-flex-wrap">
+          <div className="char-wrapper uk-width-1-1sm uk-width-2-3@l uk-flex uk-flex-wrap">
 
             {
               community.map((char, index) => (
@@ -43,7 +43,8 @@ class Community extends Component {
             <Chars handleMouseEnter={this.handleMouseEnter.bind(this)} key={2} charId={2} charData={community[2]}/>
 
           </div>
-          <div className="uk-width-1-3@l char-large-container">
+
+          <div className="uk-width-1-3@l char-large-container uk-visible@l">
             <img className={'char-large'} src={community[this.state.activeChar].imgLargeSrc} alt=""/>
             <img src={charLargeBg} alt="" className="char-large-bg"/>
           </div>
