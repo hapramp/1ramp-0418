@@ -20,7 +20,7 @@ const Footer = () => (
       <div className="uk-grid">
         <div className="uk-width-1-6@l"></div>
 
-        <div className="uk-width-1-6@l">
+        <div className="uk-width-1-6@l uk-width-1-4@m uk-width-1-2@s footer-section">
           <h4 className="section-title">Links</h4>
           <div className="uk-padding-small width-100"></div>
           <div className="links-container">
@@ -33,7 +33,7 @@ const Footer = () => (
           </div>
         </div>
 
-        <div className="uk-width-1-3@l">
+        <div className="uk-width-1-3@l uk-width-1-2@m uk-width-1-2@s footer-section">
           <h4 className="section-title">Follow us for Updates</h4>
           <div className="uk-padding-small width-100"></div>
           <div className="socials-links-container">
@@ -68,18 +68,19 @@ const Footer = () => (
             </div>
           </div>
         </div>
-        <div className="uk-width-1-6@l">
+
+        <div className="uk-width-1-6@l  uk-width-1-4@m uk-width-1-2@s footer-section">
           <h4 className="section-title">Powered by</h4>
           <div className="uk-padding-small width-100"></div>
           <div className="socials-links-container">
-            <ul className="uk-list uk-text-uppercase social-link-list uk-text-center">
+            <ul className="uk-list uk-flex uk-flex-middle uk-flex-column uk-text-uppercase social-link-list uk-text-center">
               <li
-                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top">
                 <a href="" className="uk-text-large text-primary uk-flex uk-margin-small-bottom" target="_blank"><img
                   src={hasuraLogo} alt=""/></a></li>
 
               <li
-                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                className="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top">
                 <a href="" className="uk-text-large text-primary uk-flex amazon-logo" target="_blank"><img
                   src={amazonLogo} alt=""/></a></li>
 

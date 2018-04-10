@@ -11,11 +11,11 @@ footer {
     display: inline-flex;
 }
 
-.footer-link-list a{
+.footer-link-list a {
     color: rgba(0, 0, 0, 0.54);
 }
 
-.footer-link-list a::after{
+.footer-link-list a::after {
     content: "";
     display: block;
     width: 100%;
@@ -29,8 +29,34 @@ footer {
     color: rgba(0, 0, 0, 0.87);
 }
 
-.amazon-logo {
+.amazon-logo > img {
     width: auto;
     height: 34px;
     max-width: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-link-list li {
+    justify-content: center;
+}
+
+@media (max-width: 960px) {
+    .uk-grid > .footer-section {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .uk-grid > .footer-section:last-child {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .uk-grid > .footer-section:nth-child(3) {
+        margin-top: 40px;
+    }
 }
