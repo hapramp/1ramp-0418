@@ -145,16 +145,26 @@
         margin-left: 40px;
     }
 
-    .community .section-title, .reward .section-title {
+    .faq-seperator {
+        display: none;
+    }
+
+    .community .section-title {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+
+    .uk-grid>.faq-groups {
+        margin-top: 90px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
 @media (max-width: 960px) {
 
-    .earn, .contest{
+    .earn, .contest, .reward, .faqs{
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -166,7 +176,11 @@
         width: 100%;
     }
 
-    .contest .section-title {
+    .split-content-text {
+        order: 99;
+    }
+
+    .contest .section-title, .reward .section-title {
         margin-top: 40px;
     }
 }

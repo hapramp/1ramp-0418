@@ -55,7 +55,7 @@ const FAQs = () => (
 
       <div className="faq-seperator uk-position-absolute"></div>
 
-      <div className="faq-groups uk-width-1-2@l uk-width-1-1@m uk-flex uk-flex-column uk-flex-center">
+      <div className="faq-groups uk-width-1-2@m uk-width-1-1@m uk-flex uk-flex-column uk-flex-center">
         <div className="">
           <h5 className='uk-text-center uk-text-bold'>Join our Groups for Any doubts or suggestion? </h5>
           <div className="uk-padding-small width-100"></div>

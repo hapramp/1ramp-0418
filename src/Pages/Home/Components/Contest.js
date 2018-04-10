@@ -9,7 +9,7 @@ const Contest = () => (
       <div className="uk-padding width-100"></div>
       <div className="uk-padding-small width-100"></div>
 
-      <div className="split-content uk-width-1-2@m uk-flex-last">
+      <div className="split-content-text uk-width-1-2@m">
         <h3 className={'section-title '}>Participate in Exciting Contests</h3>
         <div className="uk-padding-small width-100"></div>
         <p>
