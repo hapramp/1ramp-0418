@@ -3,6 +3,14 @@
     background-size: cover;
 }
 
+.video-section {
+    background-image: url('../img/video_bg.png');
+    background-size: cover;
+    height: 900px;
+    width: 100vw;
+
+}
+
 .hero {
     height: calc(100vh - 80px);
     align-items: center;

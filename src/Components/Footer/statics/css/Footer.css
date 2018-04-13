@@ -1,5 +1,8 @@
 footer {
-    background-color: white;
+    background: url("../img/footer_bg.png");
+    background-size: cover;
+    background-position: center;
+
 }
 
 .footer-link-list {

@@ -4,7 +4,7 @@ import rewardImg from '../statics/img/earning_machine.png'
 
 const Reward = () => (
   // <!--Reward Starts-->
-  <section className="reward uk-flex uk-container">
+  <section className="reward uk-container">
     <div className="uk-grid uk-margin-large-bottom">
       <div className="uk-padding width-100"></div>
       <div className="uk-padding-small width-100"></div>
@@ -49,6 +49,7 @@ const Reward = () => (
 
       </div>
     </div>
+    <div className="uk-padding-small width-100"></div>
   </section>
 );
 
