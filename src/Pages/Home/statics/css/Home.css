@@ -4,10 +4,10 @@
 }
 
 .video-section {
-    background-image: url('../img/video_bg.png');
+    /*background-image: url('../img/video_bg.png');*/
     background-size: cover;
-    height: 900px;
-    width: 100vw;
+    /*height: 900px;*/
+    /*width: 100vw;*/
 
 }
 

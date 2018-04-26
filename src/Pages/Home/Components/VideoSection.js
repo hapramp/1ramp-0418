@@ -13,9 +13,9 @@ const VideoSection = () => (
       <div className="uk-grid uk-margin-large-bottom">
         {/*<div className="uk-width-1-4@l"></div>*/}
 
-        <div className="uk-width-1-1@m uk-width-1-2@l uk-text-center">
-          <div className="video-bg"></div>
-          {/*<img src={videoillustration} alt=""/>*/}
+        <div className="uk-width-1-1@m uk-width-1-2@l uk-text-center uk-margin-auto-left uk-margin-auto-right">
+          {/*<div className="video-bg"></div>*/}
+          <img src={videoillustration} alt=""/>
         </div>
 
       </div>
